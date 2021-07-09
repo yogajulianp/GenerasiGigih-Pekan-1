@@ -1,0 +1,47 @@
+<DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<title >Playlist Music</title>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="assets/tugasmodul_1_2.css" />
+	</head>
+
+	<body>
+		<div class="input">
+			<h1 class="title">Create Playlist</h1>
+			<div >
+					<label>Title</label> <br>
+					<input type="text" name="Title"> <br>
+
+			 		<label>Description</label> <br>
+			 		<input type="text" name="Description">
+			</div>
+
+			<div class="submit">
+				<button onclick="functionSubmit()">Submit</button>
+			</div>
+		
+		</div>
+
+		
+		<button id="fetch"> Other Track </button>
+
+		<div id="album-container">
+		  <div class="album">
+			<img src="assets/image/journey.jpg" alt="" width="210px" height="300px">
+			<div>
+				<p id="judul" >Track Title</p>
+				<p id="penyanyi" >Artist</p>
+				<p id="album" >Album</p>
+				<button>Select</button>
+			</div>
+		  </div>
+		</div>  
+
+		
+		<script src="assets/scripts.js">  </script>
+		
+	</body>
+</html>
